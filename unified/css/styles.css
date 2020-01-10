@@ -1,0 +1,201 @@
+.primary-overlay {
+  background: rgba(112, 81, 176, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+#unified{
+  font-size:50px;
+  font-weight:bold;
+  color:orangered;
+}
+
+#about{
+  color:orangered;
+
+}
+
+#unipay{
+  font-size:10px;
+}
+
+.section-about-us{
+  padding-bottom: 10px !important;
+}
+
+#payment{
+  font-size:50px;
+  color:white;
+  font-weight:bold;
+}
+
+
+.tabs-content{
+  padding-bottom: 10px !important;
+
+}
+
+.main-content{
+  padding-bottom: 10px !important;
+
+}
+
+#register{
+  border-radius:10px !important;
+}
+
+.section-board{
+  padding-bottom: 10px !important;
+
+}
+
+.transparent{
+  box-shadow: 2px 2px #d847f1 !important;
+
+}
+
+.active-link {
+  color: #d847f1;
+  font-weight: bold;
+}
+
+.menu-link {
+  transform: translateY(0);
+  transition: all 0.15s ease-in;
+}
+
+.menu-link:hover {
+  transform: translateY(-2px);
+  transition: all 0.25s ease-out;
+}
+
+.h5-headers a{
+  color:purple;
+  font-size: smaller;
+}
+
+.btn{
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  transition: all 0.25s ease-out;
+}
+
+.section-about {
+  padding-top: 40px;
+}
+
+#about-text{
+  color:orangered;
+}
+
+#amex{
+  width:50px !important;
+  height:40px !important;
+}
+#master-card{
+  width:50px !important;
+  height:40px !important;
+}
+#pay-arena{
+  width:50px !important;
+  height:40px !important;
+}
+#pay-attitude{
+  width:50px !important;
+  height:40px !important;
+}
+#fin{
+  width:50px !important;
+  height:40px !important;
+}
+#visa{
+  width:50px !important;
+  height:40px !important;
+}
+#union{
+  width:50px !important;
+  height:40px !important;
+}
+
+.partners{
+  width:auto !important;
+}
+
+.signup-btn {
+  transform: scale(1);
+  transition: all 0.15s ease-in;
+}
+
+.signup-btn:hover {
+  transform: scale(1.2);
+  transition: all 0.25s ease-out;
+}
+
+.para{
+  padding:10px 10px !important;
+}
+
+.h5s{
+  padding:10px 5px!important;
+}
+
+.tabs {
+  margin-top: 30px;
+}
+
+.tabs .indicator {
+  background-color: #6a1b9a !important;
+
+}
+
+@media screen and (max-width: 500px){
+  
+ .header-nav{
+   height:auto !important;
+
+  }
+
+  .col p{
+    padding:10px !important;
+  }
+  
+  .h5-headers{
+    padding:10px !important;
+
+  }
+
+  .h2-text{
+    font-size:25px !important;
+    line-height: normal !important;
+    text-align: center !important;
+  }
+
+  #search-icon{
+    padding:20px !important;
+    font-size:20px !important;
+  }
+
+  .brand-logo{
+    font-size: 30px !important;
+  }
+
+  #payment{
+    font-size: 30px !important;
+
+  }
+  
+  #about-text{
+    font-size:30px !important;
+  }
+
+  
+}
